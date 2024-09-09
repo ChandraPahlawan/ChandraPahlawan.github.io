@@ -1,0 +1,195 @@
+<!-- tabel menu chandra
+<!DOCTYPE html>
+<html lang="en">
+<head>                   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Pesan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table, .table th, .table td {
+            border: 1px solid black;
+        }
+        .table th, .table td {
+            padding: 10px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+        .payment-options {
+            margin-top: 10px;
+        }
+        .signature {
+            margin-top: 20px;
+        }
+    </style>    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logoresto.jpeg" alt="Logo">
+
+        </div>
+        
+        <h3>Bukti Pemesanan</h3>
+        
+        <table>
+            <tr>
+                <td>Nama Pelayan: <strong>Chandra </strong></td>
+                <td>Tanggal Pemesanan: <input type="date"></td>
+            </tr>
+            <tr>
+                <td>Nama Pemesan: <strong>Asep</strong></td>
+                <td>Alamat Pemesan: Sepaku Ibu kota Nusantara</td>
+            </tr>
+        </table>
+
+        <table class="table">
+            <tr>
+                <th>Nama Menu</th>
+                <th>Jumlah</th>
+                <th>Harga Satuan</th>
+                <th>Total Harga</th>
+            </tr>
+            <tr>
+                <td><img src="nasgor.jpeg" width="50px"> Nasi Goreng Spesial</td>
+                <td>1 Porsi</td>
+                <td>Rp 25.000</td>
+                <td>Rp 25.000</td>
+            </tr>
+            <tr>
+                <td><img src="esteh.jpeg" width="50px"> Es Teh Manis</td>
+                <td>1 Gelas</td>
+                <td>Rp 5.000</td>
+                <td>Rp 5.000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total Pesanan</td>
+                <td>Rp 30.000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Pajak</td>
+                <td>Rp 2.000</td>
+            </tr>
+            <tr>
+                <td colspan="3"><strong>Total Tagihan</strong></td>
+                <td><strong>Rp 32.000</strong></td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p>Metode Pembayaran:</p>
+            <div class="payment-options">
+                <input type="radio" name="payment" id="bca"> <label for="bca">Bank BCA</label><br>
+                <input type="radio" name="payment" id="bri"> <label for="bri">Bank BRI</label><br>
+                <input type="radio" name="payment" id="ovo"> <label for="ovo">OVO</label><br>
+                <input type="radio" name="payment" id="gopay"> <label for="gopay">GoPay</label>
+            </div>
+        </div>
+
+        <div class="signature">
+            <p>Nama: Chandra Adha Rezki Pahlawan</p>
+            <p>NIM: 2309106011</p>
+            <p>Praktikum Web: <a href="https://classroom.google.com/c/NzA1MzMyNzkzODU2/a/NzExMzgzNjYzOTIz/details">Posttest 1</a></p>
+        </div>
+    </div>
+</body>
+</html>
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <html>
+     <head> 
+         <title>POSTTEST 1</title>
+     </head>
+     <body>
+         <center>
+         <table border="1" cellspacing="0" cellspading="5">
+             <tr> <center><td align="center" colspan="4"><img src="logoresto.jpeg" alt="logo" width="250px" >
+                 <br><br>
+             <ins width="500"> <b>Bukti Pemesanan </b></ins>
+                 <br><br></center>
+             </td>
+             </tr>
+             <tr>
+             <td width="375px" colspan="2">Nama Pelayan: <b>Chandra</b></td>
+             <td width="375px" colspan="2">Tanggal Pemesanan:<input type="date" ></td>
+         </tr>
+         <tr>
+             <td colspan="2">Nama Pemesan : <b>Asep </b></td>
+             <td colspan="2">Alamat Pemesan: IKN nusantara</td>
+         </tr>
+         <tr>
+             <th >Nama Menu</th>
+             <th>Jumlah</th>
+             <th>Harga Satuan</th>
+             <th>Total Harga</th>
+         </tr>
+         <tr>
+             <td><img src="nasgor.jpeg" alt="nasgor"><br>Nasi Goreng Spesial</td>
+             <td><input type="number">Porsi</td>
+             <td>Rp 25.000</td>
+             <td>Rp 25.000</td>
+         </tr>
+         <tr>
+             <td><img src="esteh.jpeg" alt="es-teh"><br>Es Teh Manis</td>
+             <td><input type="number">Gelas</td>
+             <td>Rp 5.000</td>
+             <td>Rp 5.000</td>
+         </tr>
+         <tr>
+             <th colspan="3">Total Pesanan</th>
+             <td align="center">Rp 30.000</td>
+         </tr>
+         <tr>
+             <th colspan="3">Pajak</th>
+             <td align="center">Rp 2.000</td>
+         </tr>
+         <tr></tr>
+             <th colspan="3">Total Tagihan</th>
+             <td align="center">Rp 32.000</td>
+         </tr>
+         <tr>
+             <td colspan="4">
+                 <b>Metode Pembayaran </b> : <br>
+             <input type="radio" name="Metode Pembayaran">Bank BCA 
+             <input type="radio" name="Metode Pembayaran">Bank BRI
+             <input type="radio" name="Metode Pembayaran">OVO
+             <input type="radio" name="Metode Pembayaran">GoPay
+             </td>
+         </tr>
+         <tr > <br>
+             <td colspan="4">
+                 <ul>
+                     <li>Nama : Chandra Adha Rezki Pahlawan</li>
+                     <li>NIM: 2309106011</li>
+                     <li>Praktikum Web: <a href="https://classroom.google.com/c/NzA1MzMyNzkzODU2/a/NzExMzgzNjYzOTIz/details"> Posttest 1</a></li>
+                 </ul>
+             </td>
+ 
+         </tr>
+         </table>
+     </center>
+     </body>
+ </html>
