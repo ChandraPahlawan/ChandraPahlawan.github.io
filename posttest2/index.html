@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran</title>
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- feather icon -->
+<script src="https://unpkg.com/feather-icons"></script>
+
+<!-- mystyle -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+  <body>
+ 
+
+<!-- navbar start -->
+    <nav class="navbar">
+    <a href="#"class="navbar-logo">Restoran<span>Food & Drink</span></a>
+    
+    
+    <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about" >Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">kontak</a>
+    </div>
+
+
+    <div class="navbar-extra">
+        <a href="#" id="search-button"> <i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+    </div>
+
+<!-- search form start -->
+<div class="search-form">
+    <input type="search" id="search-box" placeholder="search here....">
+    <label for="search-box" ><i data-feather="search"></i></label>
+</div>
+<!-- search form end -->
+
+<!-- shooping-cart start -->
+<div class="shopping-cart">
+  <div class="cart-item">
+      <img src="gmbar/produk/pro1.jpg" alt="Product 1">
+      <div class="item-detail">
+          <h3>Teh mahal</h3>
+          <div class="item-price">IDR 30K</div>
+  </div>
+  <i data-feather="trash-2" class="remove-item"></i>
+</div>
+<!-- shooping-cart end -->
+
+
+</nav>
+
+  
+<!-- navbar end -->
+
+<!-- hero start -->
+ <section class="hero" id="home">
+    <main class="content">
+        <h1 >Mari Nikmati <br>Makanan <span>kekinian</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Consequuntur, labore. <br>SUD BANG SGNI AJ CAPE SAYA, EMOT MAAP</p>
+        <a href="#" class="cta">Pesan Sekarang</a>
+        
+    </main>
+ </section>
+<!-- hero end -->
+
+<!-- about start -->
+<section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+        <div class="about-img">
+            <img src="gmbar/backresto.jpg" alt="Tentang Kami">
+        </div>
+        <div class="content">
+            <h3>Kenapa harus di sini</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- about end -->
+
+<!-- menu start -->
+ <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quam culpa quos aut, numquam error.</p>
+<div class="row">
+    <div class="menu-card">
+        <img src="gmbar/menu/1.jpg" alt="nasi goyeng" class="menu-card-gmbar">
+        <h3 class="menu-card-title">-Nasi Goyeng-</h3>
+        <p class="menu-card-price">IDR 30K</p>
+    </div>
+    <div class="menu-card">
+        <img src="gmbar/menu/2.jpg" alt="ice tea" class="menu-card-gmbar">
+        <h3 class="menu-card-title">-Ice Tea-</h3>
+        <p class="menu-card-price">IDR 15K</p>
+    </div>
+    <div class="menu-card">
+        <img src="gmbar/menu/3.jpg" alt="Steak" class="menu-card-gmbar">
+        <h3 class="menu-card-title">-Steak mahal-</h3>
+        <p class="menu-card-price">IDR 10JT</p>
+    </div>
+    <div class="menu-card">
+        <img src="gmbar/menu/4.jpg" alt="nasi kuning" class="menu-card-gmbar">
+        <h3 class="menu-card-title">-Naskun elit-</h3>
+        <p class="menu-card-price">IDR 57K</p>
+    </div>
+</div>
+ </section>
+<!-- menu end -->
+
+<!-- Products Section start -->
+<section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="gmbar/produk/pro1.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Teh Mahal</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="gmbar/produk/pro1.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Teh Mahal 2</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="gmbar/produk/pro1.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Teh Mahal 3</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+
+
+<!-- contact start -->
+ <section id="contact" class="contact">
+    <h2><span>kontak</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, impedit.</p>
+ 
+
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155960.00469256775!2d4.739154114958347!3d52.35455102116186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C%20Belanda!5e0!3m2!1sid!2sid!4v1726633536877!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        
+    <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama"> 
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email"> 
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="nomor hp"> 
+        </div>
+        <button type="submit" class="btn">kirim Pesan</button>
+    </form>
+ 
+ 
+    </div>
+
+</section>
+<!-- contact end -->
+
+<!-- footer start -->
+ <footer>
+ <div class="social">
+    <a href="#"><i data-feather="facebook"></i></a>
+    <a href="#"><i data-feather="instagram"></i></a>
+    <a href="#"><i data-feather="twitter"></i></a>
+ </div>
+<div class="link">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#menu">menu</a>
+    <a href="#contact">contact</a>
+</div>
+
+<div class="credit">
+    <p>Created by<a href="">Chandra Rezki</a>| &copy; 2024.</p>
+</div>
+</footer>
+<!-- footer start -->
+
+    <!-- feather icon -->
+    <script>
+        feather.replace();
+    </script>
+
+
+<!-- my java -->
+ <script src="js/script.js"></script>
+</body>
+</html>
