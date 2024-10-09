@@ -1,0 +1,123 @@
+/* CSS Style for Admin CRUD Page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="submit"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.actions a.edit {
+    background-color: #FFC107;
+}
+
+.actions a.edit:hover {
+    background-color: #e0a800;
+}
+
+.actions a.delete {
+    background-color: #DC3545;
+}
+
+.actions a.delete:hover {
+    background-color: #c82333;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+    }
+}
