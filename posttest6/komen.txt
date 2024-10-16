@@ -1,0 +1,22 @@
+user, pw == admin
+
+
+NEW in posttest 5
+Booking(admin, booking, lihat jadwal, kembali)
+admin(login(jika salah 3x akan menunggu 1 mnt), jika benar akan bisa melakukan crud)
+booking(create)
+lihat jadwal(read)
+kembali(kembali ke halamn sebelumnya)
+
+
+tombol darkmodenya ada macam macam bang kwkwkwk(coba coba)
+
+CSS
+css nya bagian admin booking sm lihatjadwal nd bagus kwkwwk(bingung saya mau diapain)
+
+
+psti selanjutnya buat multiuser 
+
+
+untuk gambar kurang lebih aja bang (posttest 6)
+
